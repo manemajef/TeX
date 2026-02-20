@@ -1,23 +1,23 @@
-%!TEX program = lualatexmk
-
+%!TEX program = lualatex
 \documentclass[11pt, a4paper]{article}
 
 % 1. Packages
 \usepackage{amsmath, amssymb} % Standard math
-\usepackage{lmodern}
-\usepackage[a4paper, margin=80pt, includeheadfoot]{geometry}
+\usepackage{lmodern} % better rendering
+\usepackage[a4paper, margin=80pt, includeheadfoot]{geometry} % page setup for he, not a must.
 \usepackage[protrusion=false]{microtype}
 \emergencystretch 3em
 
 % 2. Language Setup (Babel)
-\usepackage[bidi=basic, layout=tabular]{babel}
-\babelprovide[main, import=he, onchar=fonts ids]{hebrew}
-\babelprovide[import=en, onchar=fonts ids]{english} 
-\babeltags{english = english, hebrew = hebrew} % if tags are not provided, i cant use \selectlangaue{*} or \textlanguage{text} 
+\usepackage[bidi=basic, layout=tabular]{babel} % tabular for table behaviour
+\babelprovide[main, import=he, onchar=fonts ids]{hebrew} % hebrew can apear inside english
+\babelprovide[import=en, onchar=fonts ids]{english} % english can apear inside hebrew, 
+\babeltags{english = english, hebrew = hebrew}
 
 % 3. Fonts
 % Hebrew Fonts (OpenType)
-\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM} % must expliclty set the fonts, which will usuaky anyway be what i get anyway with the pdftex one
+% \babelfont[hebrew]{rm}{Renderer=Harfbuzz}{Times New Roman} % plays nicer with CMU
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM} % /// comment off for default font.
 \babelfont[hebrew]{tt}{Miriam Mono CLM}
 \babelfont[hebrew]{sf}{DejaVu Sans}
 
