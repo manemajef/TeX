@@ -1,0 +1,56 @@
+%!TEX program = lualatex
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{listings}
+
+% ===== BiDi using Babel =======
+\usepackage[provide=*, bidi=basic, layout=tabular]{babel}
+\babelprovide[main, import, onchar=fonts ids]{hebrew}
+\babelprovide[import=en,onchar=fonts
+ids]{english}
+\babeltags{english = english, hebrew = hebrew}
+
+% ===== Font settings ======== 
+
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM}
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+%\setmathrm{CMU Serif}
+%% \babelfont{rm}{Latin Modern Roman}
+%% \babelfont[english]{rm}{CMU Serif}  %// for the "Classic" look use CMU Serif instead
+%% \babelfont{rm}[OpticalSize=14]{Latin Modern Roman}
+
+
+% ====== easy macros for bidi stuff =====
+\newcommand{\LR}[1]{\textenglish{#1}}
+\newcommand{\RL}[1]{\texthebrew{#1}}
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\newcommand{\LC}{\char"200E\ }
+
+% ===== style ====== %
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+\usepackage{parskip}
+\usepackage[a4paper, margin=80pt, includeheadfoot]{geometry}
+
+\usepackage[protrusion=false]{microtype}
+\emergencystretch 3em
+
+\begin{document}
+	\title{תבנית לכתיבת מסמכים בעברית עם \LaTeX}
+	\author{Rotem Semah}
+	\date{}
+	
+	\maketitle
+		\section{שלום}
+	שלום כלבה. מה הולך? Bitch. 
+	(שלום). מה?! מה--קורה מה-קורה מה---קורה? זה קורה כ־23 פעמים. באופן כללי, אין סיבה להשתמש במנוע הזה (pdfTex) מאחר וזה עושה Shit. 	נשים לב שמספרים (1,2,3,4) וכן גם סימנים: \% וכו, עובדים כצפוי. מה קורה למשל עם \$ ? ומה קורה עם ₪ ? ואיך עושים \verb|טקסט בעברית| או למשל \sffamily טקסט לא Serif ? 
+	\rmfamily
+	
+\LR{And here?}
+	\subsection*{  \RL{טבלאות, עמודות, וכל מה שבינהם} \\
+		 \LR{טבלאות, עמודות, וכל מה שבינהם}}
+	
+	\[\ln, \lim, \cos \]
+\end{document}

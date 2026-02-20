@@ -1,0 +1,65 @@
+%!TEX program = lualatex
+
+\documentclass[11pt, a4paper]{article}
+
+% 1. Packages
+\usepackage{amsmath, amssymb} % Standard math
+\usepackage{lmodern} % must use this to keep math \cos etc in default fon instead of hebrew font. 
+\usepackage{parskip} % hebrew dosnt have indent on new par 
+\usepackage{blindtext}
+
+
+% 2. Language Setup (Babel)
+\usepackage[bidi=basic]{babel}
+\babelprovide[import=he, onchar=fonts ids]{hebrew}
+\babelprovide[import=en, onchar=fonts ids]{english} 
+\babeltags{english = english, hebrew = hebrew} % if tags are not provided, i cant use \selectlangaue{*} or \textlanguage{text} 
+
+% 3. Fonts
+% Hebrew Fonts (OpenType)
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM} % must expliclty set the fonts, which will usuaky anyway be what i get anyway with the pdftex one
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+
+
+% 4. Macros
+\newcommand{\LR}[1]{\textenglish{#1}} % must provide macros for inline lang change (very common in hebrew e.g ירושלים (Jerusalem) היא ... ) 
+\newcommand{\RL}[1]{\texthebrew{#1}} 
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\newcommand{\LC}{\char"200E\ }
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+
+\begin{document}
+	
+	\title{תבנית לכתיבת מסמכים בעברית עם \LaTeX}
+	\author{Rotem Semah}
+	\date{}
+	
+	\maketitle
+	
+	פסקה בעברית (David CLM). 
+	\LR{This is English text (Latin Modern).}
+	
+	\[
+	\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}, \quad \cos(x) \forall x \in \mathbb{R}, \quad \sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+	\]
+	\[
+	f(x) = \begin{cases}
+		0 & \text{אם \emph{x} הוא לא רציונלי} \\
+		1 & \text{אחרת}
+	\end{cases}
+	\]
+	\EN 
+	
+	התחל \blindtext 
+	\begin{itemize} 
+		\item item 1
+		
+	\end{itemize}
+	\HE 
+	\begin{itemize} 
+		\item פריט (א)
+	\end{itemize}
+	
+\end{document}

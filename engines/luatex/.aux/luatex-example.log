@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2026.2.2)  20 FEB 2026 17:25
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2026.2.2)  20 FEB 2026 22:48
  restricted system commands enabled.
 **luatex-example.tex
 (./luatex-example.tex
@@ -42,8 +42,8 @@ Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
 5/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /Users/rotemsemah/Library/texl
 ive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count194
@@ -426,33 +426,41 @@ luaotfload | cache : Lookup cache loaded from /Users/rotemsemah/Library/texlive/
 2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 
 Package fontspec Info: 
-(fontspec)             Language 'Hebrew' not explicitly supported within font
-(fontspec)             'David CLM' with script 'Hebrew'. Check the typeset
-(fontspec)             output, and if it is okay then ignore this warning.
-(fontspec)             Otherwise a different font should be chosen.
+(fontspec)             Script 'Hebrew' not explicitly supported within font
+(fontspec)             'Times New Roman'. Check the typeset output, and if it
+(fontspec)             is okay then ignore this warning. Otherwise a different
+(fontspec)             font should be chosen.
 
 
 Package fontspec Info: 
-(fontspec)             Font family 'DavidCLM(0)' created for font 'David CLM'
-(fontspec)             with options
+(fontspec)             Language 'Hebrew' not explicitly supported within font
+(fontspec)             'Times New Roman' with script 'Hebrew'. Check the
+(fontspec)             typeset output, and if it is okay then ignore this
+(fontspec)             warning. Otherwise a different font should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
 (fontspec)             [Renderer=Harfbuzz,Ligatures=TeX,Script=Hebrew,Language=
 Hebrew,RawFeature={family=rm},Renderer=Harfbuzz].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:David
-(fontspec)             CLM:mode=harf;script=hebr;language=IWR;+tlig;family=rm;"
-
-(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:David
-(fontspec)             CLM/B:mode=harf;script=hebr;language=IWR;+tlig;family=rm
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"name:Times New
+(fontspec)             Roman:mode=harf;script=hebr;language=IWR;+tlig;family=rm
 ;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:David
-(fontspec)             CLM/I:mode=harf;script=hebr;language=IWR;+tlig;family=rm
-;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:David
-(fontspec)             CLM/BI:mode=harf;script=hebr;language=IWR;+tlig;family=r
-m;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"name:Times New
+(fontspec)             Roman/B:mode=harf;script=hebr;language=IWR;+tlig;family=
+rm;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"name:Times New
+(fontspec)             Roman/I:mode=harf;script=hebr;language=IWR;+tlig;family=
+rm;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"name:Times
+(fontspec)             New
+(fontspec)             Roman/BI:mode=harf;script=hebr;language=IWR;+tlig;family
+=rm;"
 
 
 Package fontspec Info: 
@@ -514,7 +522,7 @@ ctuationSpace=WordSpace,Script=Hebrew,Language=Hebrew,RawFeature={family=tt}].
 
 
 Package babel Info: The current font is not a babel standard family:
-(babel)             [lmroman10-regular]:+tlig; at 10.95pt
+(babel)             [lmroman12-regular]:+tlig; at 12.0pt
 (babel)             There is nothing intrinsically wrong with this warning, and
 
 (babel)             you can ignore it altogether if you do not need these
@@ -524,18 +532,18 @@ be
 
 (babel)             you may consider defining a new family with \babelfont.
 (babel)             See the manual for further details about \babelfont.
-(babel)             Reported on input line 34.
+(babel)             Reported on input line 33.
 
 (./.aux/luatex-example.aux
 
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
 (babel)             * \rmfamily = lmr
-(babel)               [lmroman10-regular]:+tlig; at 10.95pt
+(babel)               [lmroman12-regular]:+tlig; at 12.0pt
 (babel)             * \sffamily = lmss
-(babel)               [lmsans10-regular]:+tlig; at 10.95pt
+(babel)               [lmsans12-regular]:+tlig; at 12.0pt
 (babel)             * \ttfamily = lmtt
-(babel)               [lmmono10-regular]: at 10.95pt
+(babel)               [lmmono12-regular]: at 12.0pt
 (babel)             There is nothing intrinsically wrong with it, but
 (babel)             'babel' will no set Script and Language, which could
 (babel)             be relevant in some languages. If your document uses
@@ -545,22 +553,22 @@ Package babel Info: The following font families will use the default
 )
 \openout1 = luatex-example.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -570,23 +578,23 @@ LaTeX Font Info:    ... okay on input line 34.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(80.0pt, 437.50787pt, 80.0pt)
-* v-part:(T,H,B)=(80.0pt, 685.04684pt, 80.0pt)
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=437.50787pt
-* \textheight=618.04684pt
-* \oddsidemargin=7.73001pt
-* \evensidemargin=7.73001pt
-* \topmargin=7.73001pt
+* \textwidth=418.25368pt
+* \textheight=524.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=29.13666pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=50.0pt
+* \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -596,19 +604,19 @@ LaTeX Font Info:    ... okay on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 34.
-Package microtype Info: Applying patch `item' on input line 34.
-Package microtype Info: Applying patch `toc' on input line 34.
-Package microtype Info: Applying patch `eqnum' on input line 34.
-Package microtype Info: Applying patch `footnote' on input line 34.
-Package microtype Info: Applying patch `verbatim' on input line 34.
-LaTeX Info: Redefining \microtypesetup on input line 34.
+LaTeX Info: Redefining \microtypecontext on input line 33.
+Package microtype Info: Applying patch `item' on input line 33.
+Package microtype Info: Applying patch `toc' on input line 33.
+Package microtype Info: Applying patch `eqnum' on input line 33.
+Package microtype Info: Applying patch `footnote' on input line 33.
+Package microtype Info: Applying patch `verbatim' on input line 33.
+LaTeX Info: Redefining \microtypesetup on input line 33.
 Package microtype Info: Generating PDF output.
 Package microtype Info: No character protrusion.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 34.
+LaTeX Info: Redefining \showhyphens on input line 33.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -627,35 +635,35 @@ Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
 Inserting `Babel.unset_atdir' in `pre_linebreak_filter'.
 Inserting `Babel.unset_atdir' in `hpack_filter'.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-8.
+7.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-8.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-38.
+37.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-38.
+37.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 38.
+(Font)              <20.74> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 38.
+(Font)              <14.4> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 38.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+(Font)              <12> on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -664,7 +672,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -674,9 +682,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 38.
+(Font)              <10> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 38.
+(Font)              <7> on input line 37.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <17.28> not a
+vailable
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 38.
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/bx/n' in size <14.4> not av
+ailable
+(Font)              Font shape `TU/TimesNewRoman(0)/b/n' tried instead on input
+ line 42.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 46.
 
 
 [1
@@ -690,22 +710,27 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 8832 strings out of 475506
+ 8887 strings out of 475506
  125240,794899 words of node,token memory allocated
- 571 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 35 attribute, 51 glue_spec
-, 15 attribute_list, 1 write nodes
-   avail lists: 2:379,3:14,4:5,5:31,6:4,7:164,8:1,9:44,10:5,11:2
- 31723 multiletter control sequences out of 65536+600000
- 81 fonts using 25790999 bytes
- 80i,6n,106p,1010b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/rotemsemah/Library/Fonts/lmroman10-regular.otf></Users/rotemsemah/Librar
-y/Fonts/lmroman12-regular.otf></Users/rotemsemah/Library/Fonts/lmroman17-regular
-.otf></Users/rotemsemah/Library/Fonts/DavidCLM-Medium.otf>
-Output written on luatex-example.pdf (1 page, 8798 bytes).
+ 613 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 47 attribute, 53 glue_spec
+, 19 attribute_list, 1 write nodes
+   avail lists: 1:2,2:2912,3:48,4:5,5:88,6:14,7:1302,8:4,9:186,10:11,11:6
+ 31778 multiletter control sequences out of 65536+600000
+ 97 fonts using 31841783 bytes
+ 80i,8n,106p,1010b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/tex
+live/2025/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></Users/rotem
+semah/Library/Fonts/DejaVuSans.ttf></Users/rotemsemah/Library/Fonts/MiriamMonoCL
+M-Book.ttf></Users/rotemsemah/Library/Fonts/Timesbd.TTF></Users/rotemsemah/Libra
+ry/Fonts/lmroman12-bold.otf></Users/rotemsemah/Library/Fonts/lmroman12-regular.o
+tf></Users/rotemsemah/Library/Fonts/lmroman17-regular.otf></Users/rotemsemah/Lib
+rary/Fonts/Times.TTF></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/l
+mr12.pfb>
+Output written on luatex-example.pdf (1 page, 80966 bytes).
 
-PDF statistics: 47 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+PDF statistics: 77 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

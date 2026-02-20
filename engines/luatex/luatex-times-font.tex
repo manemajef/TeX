@@ -13,7 +13,7 @@
 \usepackage[bidi=basic, layout=tabular]{babel}
 \babelprovide[main, import=he, onchar=fonts ids]{hebrew}
 \babelprovide[import=en, onchar=fonts ids]{english} 
-\babeltags{english = english, hebrew = hebrew} 
+\babeltags{english = english, hebrew = hebrew} % if tags are not provided, i cant use \selectlangaue{*} or \textlanguage{text} 
 
 % 3. Fonts
 \babelfont[hebrew]{rm}[Renderer=Harfbuzz]{Times New Roman}

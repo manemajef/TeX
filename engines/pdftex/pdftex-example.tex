@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[english,hebrew]{babel}
+\newcommand{\LR}[1]{\L{#1}}
+\newcommand{\RL}[1]{\R{#1}} 
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+
+\begin{document}
+
+
+	\title{תבנית עברית ל-\LaTeX}
+	\author{\LR{Rotem Semah}}
+	\date{}
+	\maketitle
+	\section{שלום}
+	שלום כלבה. מה הולך? \LR{Bitch}. 
+	(שלום). מה?! מה--קורה מה-קורה מה---קורה? זה קורה כ־23 פעמים. באופן כללי, אין סיבה להשתמש במנוע הזה \LR{(pdfTex)} מאחר וזה עושה Shit. 	נשים לב שמספרים (1,2,3,4) וכן גם סימנים: \% וכו, עובדים כצפוי. מה קורה למשל עם \$ ? ומה קורה עם ₪ ? ואיך עושים \verb|טקסט בעברית| או למשל \sffamily טקסט לא \LR{Bitch} ? 
+	
+	\subsection{טבלאות, עמודות, וכל מה שבינהם}
+	\rmfamily
+	\EN 
+	
+	\begin{tabular}{|l|l|l|}
+		One & Two & three \\
+		\hline 
+		Bitch & Nigga & Cunt
+	\end{tabular}
+	
+	\HE
+	
+	\begin{tabular}{|r|r|r|}
+		
+		אחת & שתיים & שלוש \\
+		\hline 
+		כלבה & ניגה & קאנט. \\
+		$\cos$ & $\ln$ & $\lim$ 
+		
+	\end{tabular}
+	
+\end{document}
+
+
+
