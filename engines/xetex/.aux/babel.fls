@@ -1,0 +1,15 @@
+PWD /Users/rotemsemah/lab/latex/xetex
+INPUT /usr/local/texlive/2025/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt
+INPUT babel.tex
+OUTPUT .aux/babel.log
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/errbabel.def

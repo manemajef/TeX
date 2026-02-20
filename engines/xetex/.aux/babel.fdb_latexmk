@@ -1,0 +1,22 @@
+# Fdb version 4
+["xdvipdfmx"] 0 ".aux/babel.xdv" "babel.pdf" "babel" 0 -1
+  ".aux/babel.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "babel.pdf"
+  (rewritten before read)
+["xelatex"] 1771161365.94947 "babel.tex" ".aux/babel.xdv" "babel" 1771161978.44941 2
+  ".aux/babel.aux" 1771161926.20671 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty" 1739572459 143388 b008e1666520ff43d0878397f2926242 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/errbabel.def" 1735765002 8981 98ab153dc9ca2dfe1d1abb8eaa263794 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def" 1735765002 18647 20e1dbde92e1fb200b527e2910aff7ff ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo" 1738182759 8464 e73911cdcc738e82d6adccd28e654bb1 ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1770067266 5639824 17fc04c56ad8ee9d703a1f33034a1bb8 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "babel.tex" 1771161304.3238 1139 d116b03808e6765e74fd7f8ed470a0ce ""
+  (generated)
+  ".aux/babel.aux"
+  ".aux/babel.log"
+  ".aux/babel.xdv"
+  (rewritten before read)

@@ -1,0 +1,196 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.2)  17 FEB 2026 14:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template_pdflatex.tex
+(./template_pdflatex.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count270
+\U@D=\dimen142
+\l@unhyphenated=\language90
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count271
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/rlbabel.def
+File: rlbabel.def 2023/08/22 v2.4a Right-to-Left support from the babel system 
+Hebrew language support from the babel system
+\heb@n@everypar=\toks19
+LaTeX Info: Redefining \underline on input line 624.
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/hebrew.ldf
+File: hebrew.ldf 2023/08/22 v2.4a Hebrew language definition from the babel sys
+tem Hebrew language support from the babel system
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hebrew-fonts/nhe8enc.def
+File: nhe8enc.def 2023/08/21 v1.3 8-bit Hebrew font encoding (test version: sti
+ll liable to change)
+Now handling font encoding NHE8 ...
+... processing UTF-8 mapping file for font encoding NHE8
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hebrew-fonts/nhe8enc.dfu
+File: nhe8enc.dfu 2023/08/21 v1.3 Hebrew input encoding file
+   defining Unicode char U+20AA (decimal 8362)
+   defining Unicode char U+05D0 (decimal 1488)
+   defining Unicode char U+05D1 (decimal 1489)
+   defining Unicode char U+05D2 (decimal 1490)
+   defining Unicode char U+05D3 (decimal 1491)
+   defining Unicode char U+05D4 (decimal 1492)
+   defining Unicode char U+05D5 (decimal 1493)
+   defining Unicode char U+05D6 (decimal 1494)
+   defining Unicode char U+05D7 (decimal 1495)
+   defining Unicode char U+05D8 (decimal 1496)
+   defining Unicode char U+05D9 (decimal 1497)
+   defining Unicode char U+05DA (decimal 1498)
+   defining Unicode char U+05DB (decimal 1499)
+   defining Unicode char U+05DC (decimal 1500)
+   defining Unicode char U+05DD (decimal 1501)
+   defining Unicode char U+05DE (decimal 1502)
+   defining Unicode char U+05DF (decimal 1503)
+   defining Unicode char U+05E0 (decimal 1504)
+   defining Unicode char U+05E1 (decimal 1505)
+   defining Unicode char U+05E2 (decimal 1506)
+   defining Unicode char U+05E3 (decimal 1507)
+   defining Unicode char U+05E4 (decimal 1508)
+   defining Unicode char U+05E5 (decimal 1509)
+   defining Unicode char U+05E6 (decimal 1510)
+   defining Unicode char U+05E7 (decimal 1511)
+   defining Unicode char U+05E8 (decimal 1512)
+   defining Unicode char U+05E9 (decimal 1513)
+   defining Unicode char U+05EA (decimal 1514)
+   defining Unicode char U+05B0 (decimal 1456)
+   defining Unicode char U+05B1 (decimal 1457)
+   defining Unicode char U+05B2 (decimal 1458)
+   defining Unicode char U+05B3 (decimal 1459)
+   defining Unicode char U+05B4 (decimal 1460)
+   defining Unicode char U+05B5 (decimal 1461)
+   defining Unicode char U+05B6 (decimal 1462)
+   defining Unicode char U+05B7 (decimal 1463)
+   defining Unicode char U+05B8 (decimal 1464)
+   defining Unicode char U+05B9 (decimal 1465)
+   defining Unicode char U+05BA (decimal 1466)
+   defining Unicode char U+05BB (decimal 1467)
+   defining Unicode char U+05BC (decimal 1468)
+   defining Unicode char U+05BD (decimal 1469)
+   defining Unicode char U+05BE (decimal 1470)
+   defining Unicode char U+05BF (decimal 1471)
+   defining Unicode char U+05C0 (decimal 1472)
+   defining Unicode char U+05C1 (decimal 1473)
+   defining Unicode char U+05C2 (decimal 1474)
+   defining Unicode char U+05C3 (decimal 1475)
+   defining Unicode char U+05F0 (decimal 1520)
+   defining Unicode char U+05F1 (decimal 1521)
+   defining Unicode char U+05F2 (decimal 1522)
+   defining Unicode char U+05F3 (decimal 1523)
+   defining Unicode char U+05F4 (decimal 1524)
+))))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/he/babel-hebrew.te
+x
+Package babel Info: Importing font and identification data for hebrew
+(babel)             from babel-he.ini. Reported on input line 11.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
+\l__pdf_internal_box=\box52
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4].
+
+(.aux/template_pdflatex.aux
+LaTeX Font Info:    Trying to load font information for NHE8+cmr on input line 
+4.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/culmus/nhe8cmr.fd
+File: nhe8cmr.fd 2023/08/17 v1 Hebrew roman font (test version: still liable to
+ change)
+))
+\openout1 = `template_pdflatex.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for NHE8/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 19.
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/culmus/nhe8.enc}] (.aux/template_pdf
+latex.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1989 strings out of 473190
+ 34610 string characters out of 5715801
+ 432491 words of memory out of 5000000
+ 25265 multiletter control sequences out of 15000+600000
+ 566362 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,6n,54p,186b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/culmus/DavidCLM-Bold.p
+fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/culmus/DavidCLM-Mediu
+m.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+>
+Output written on .aux/template_pdflatex.pdf (1 page, 55520 bytes).
+PDF statistics:
+ 34 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

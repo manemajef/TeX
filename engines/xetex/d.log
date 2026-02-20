@@ -1,0 +1,191 @@
+This is METAFONT, Version 2.71828182 (preloaded base=mf 2026.2.2)  15 FEB 2026 15:33
+**\mode:=ljfour; mag:=1; ; nonstopmode; input d
+(/usr/local/texlive/2025/texmf-dist/fonts/source/public/levy/d.mf
+>> readfrom
+! Isolated expression.
+<to be read again> 
+                   (
+l.26 if unknown gen_sigma: readfrom(
+                                    "gen_sigma") fi
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.26 if unknown gen_sigma: readfrom(
+                                    "gen_sigma") fi
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> cmchar
+! Isolated expression.
+<to be read again> 
+                   "Lowercase delta"
+l.88 cmchar "Lowercase delta"
+                             ;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   "Lowercase delta"
+l.88 cmchar "Lowercase delta"
+                             ;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+! Missing argument to beginchar.
+<to be read again> 
+                   ;
+l.89 beginchar("d",dims);
+                         
+That macro has more parameters than you thought.
+I'll continue by pretending that each missing argument
+is either zero or null.
+
+! Missing argument to beginchar.
+<to be read again> 
+                   ;
+l.89 beginchar("d",dims);
+                         
+That macro has more parameters than you thought.
+I'll continue by pretending that each missing argument
+is either zero or null.
+
+>> dims
+! Internal quantity `charwd' must receive a known value.
+<to be read again> 
+                   ;
+beginchar->...byte(EXPR0)else:0fi;charwd:=(EXPR1);
+                                                  charht:=(EXPR2);chardp:=(E...
+<to be read again> 
+                   ;
+l.89 beginchar("d",dims);
+                         
+I can't set an internal quantity to anything but a known
+numeric value, so I'll have to ignore this assignment.
+
+>> this_letter
+! Isolated expression.
+<to be read again> 
+                   ;
+l.90 this_letter;
+                  penlabels(1,2,3,4,5,6,7,8,9,10); endchar;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+[100]
+>> cmchar
+! Isolated expression.
+<to be read again> 
+                   "Lowercase sigma followed by delta"
+l.94 cmchar "Lowercase sigma followed by delta"
+                                               ;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   "Lowercase sigma followed by delta"
+l.94 cmchar "Lowercase sigma followed by delta"
+                                               ;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> begindoublechar
+! Isolated expression.
+<to be read again> 
+                   (
+l.95 begindoublechar(
+                     oct"004",dim_sigma);
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.95 begindoublechar(
+                     oct"004",dim_sigma);
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> mid_sigma
+! Isolated expression.
+<to be read again> 
+                   ;
+l.96 mid_sigma;
+                middoublechar(dims); this_letter; endchar;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+>> middoublechar
+! Isolated expression.
+<to be read again> 
+                   (
+l.96 mid_sigma; middoublechar(
+                              dims); this_letter; endchar;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+! Extra tokens will be flushed.
+<to be read again> 
+                   (
+l.96 mid_sigma; middoublechar(
+                              dims); this_letter; endchar;
+I've just read as much of that statement as I could fathom,
+so a semicolon should have been next. It's very puzzling...
+but I'll try to get myself back together, by ignoring
+everything up to the next `;'. Please insert a semicolon
+now in front of anything that you don't want me to delete.
+(See Chapter 27 of The METAFONTbook for an example.)
+
+>> this_letter
+! Isolated expression.
+<to be read again> 
+                   ;
+l.96 mid_sigma; middoublechar(dims); this_letter;
+                                                  endchar;
+I couldn't find an `=' or `:=' after the
+expression that is shown above this error message,
+so I guess I'll just ignore it and carry on.
+
+[100]
+! Extra `endgroup'.
+endchar->...makebox(screenrule);showit;fi.endgroup
+                                                  
+l.96 ... middoublechar(dims); this_letter; endchar
+                                                  ;
+I'm not currently working on a `begingroup',
+so I had better not try to end anything.
+
+)
+! Emergency stop.
+<*> \mode:=ljfour; mag:=1; ; nonstopmode; input d
+                                                 
+*** (job aborted, no legal end found)
+
+Output written on d.2602gf (2 characters, 392 bytes).

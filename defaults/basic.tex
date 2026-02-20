@@ -1,0 +1,41 @@
+%!TEX program = lualatex
+
+\documentclass[11pt, a4paper]{article}
+\usepackage{amsmath, amssymb}
+
+% ===== BiDi using Babel =======
+\usepackage[hebrew, provide=*, bidi=basic, layout=tabular]{babel}
+\babelprovide[import=en,onchar=fonts
+ids]{english}
+\babeltags{english = english, hebrew = hebrew}
+
+% ===== Font settings ======== 
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM}
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+
+
+% ====== easy macros for bidi stuff =====
+\newcommand{\LR}[1]{\textenglish{#1}}
+\newcommand{\RL}[1]{\texthebrew{#1}}
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\newcommand{\LC}{\char"200E\ }
+
+\usepackage{blindtext}
+% ===== style ====== %
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+\usepackage{parskip}
+\usepackage[a4paper, margin=80pt, includeheadfoot]{geometry}
+
+\usepackage[protrusion=false]{microtype}
+\emergencystretch 3em
+
+\begin{document}
+	\title{תבנית עברית ל-\LaTeX}
+	\author{Rotem Semah}
+	\date{}
+	\maketitle
+
+	
+\end{document}
