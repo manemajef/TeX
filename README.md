@@ -44,14 +44,23 @@ brew install --cask font-culmus   # אם קיים ב-homebrew-cask-fonts
 
 ```
 .
-├── defaults/          # תבניות בסיסיות — נקודת התחלה לכל מנוע
-├── engines/           # דוגמאות מפורטות ובדיקות לכל מנוע
+├── defaults/                        # תבניות בסיסיות — נקודת התחלה לכל מנוע
+├── engines/                         # קבצי ייחוס לכל מנוע
 │   ├── pdftex/
+│   │   ├── pdftex-example.tex       # דוגמה כללית
+│   │   └── pdftex-overview.tex      # סקירת המנוע, יתרונות/חסרונות
 │   ├── xetex/
+│   │   ├── xetex-example.tex
+│   │   └── xetex-overview.tex
 │   ├── luatex/
+│   │   ├── luatex.tex               # תבנית מודרנית קנונית
+│   │   ├── luatex-overview.tex      # סקירת המנוע
+│   │   └── migration-from-luabidi.tex  # מעבר מ-luabidi ל-bidi=basic
 │   └── typst/
-└── examples/          # השוואות בין מנועים, כולל מסמכי מתמטיקה
-    └── math-hebrew-article/
+│       ├── example.typ
+│       └── typst-overview.typ
+└── examples/                        # אותו מסמך במנועים שונים
+    └── math-hebrew-article/         # מאמר מתמטי — pdf / xetex / lua / typst
 ```
 
 קבצי פלט (PDF) מיוצרים לתיקיית `out/` בכל תיקייה (מוגדר ב-`.latexmkrc`).
@@ -99,7 +108,7 @@ brew install --cask font-culmus   # אם קיים ב-homebrew-cask-fonts
 **יתרונות:** BiDi אוטומטי, פונטי מערכת, טבלאות תקינות, מתוחזק באופן פעיל.
 **חסרונות:** זמן קומפילציה ארוך יותר, בחירת טקסט מה-PDF עלולה להתנהג לא תקין.
 
-> **שים לב:** **אין** להשתמש בחבילת `luabidi` יחד עם `bidi=basic` — הן מתנגשות. ראה [`engines/luatex/lua-no-luabidi.tex`](engines/luatex/lua-no-luabidi.tex) לדוגמה של המעבר.
+> **שים לב:** **אין** להשתמש בחבילת `luabidi` יחד עם `bidi=basic` — הן מתנגשות. ראה [`engines/luatex/migration-from-luabidi.tex`](engines/luatex/migration-from-luabidi.tex) לדוגמה של המעבר.
 
 ---
 
