@@ -1,0 +1,54 @@
+%!TEX program = xelatex
+\documentclass[a4paper]{article}
+
+% 1. Packages
+\usepackage{amsmath, amssymb} % Standard math
+%\usepackage{lmodern} % better rendering
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage[protrusion=false]{microtype}
+\emergencystretch 3em
+
+% 2. Language Setup (Babel)
+\usepackage[bidi=default, english,hebrew, provide=*]{babel}
+\babeltags{english = english, hebrew = hebrew}
+
+% 3. Fonts
+% Hebrew Fonts (OpenType)
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM}
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+
+
+% 4. Macros
+\newcommand{\LR}[1]{\textenglish{#1}}
+\newcommand{\RL}[1]{\texthebrew{#1}} 
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+
+
+\begin{document}
+	\title{מנוע \LR{XE\LaTeX}}
+	\author{}
+	\date{}
+	\maketitle
+	\section*{מה זה \LR{Xe\LaTeX}\ ?}
+	מדובר במנוע קצת יותר מתקדם ממנוע ברירת המחדל \LR{(Pdf\LaTeX)} שמאפשר להשתמש בגופני \LR{\emph{unicode}} מהמערכת הפעלה. הוא עובד יותר טוב עם עברית מאשר ברירת המחדל, וברוב המקרים עדיף להשתמש בו.
+	\subsection*{יתרונות}
+	\begin{itemize}
+		\item ניתן להשתמש בכל גופן שנמצא במערכת ההפעלה (כאן שומש David CLM) שהוא ברירת המחדל
+	\item ניתן לשים מילים באנגלית בתוך עברית ללא סימון נוסף (רק מילה יחידה---לא
+	 כמה)
+	 \item ניתן לסמן טקסט מתוך ה--pdf בצורה נוחה (בניגוד ל-LuaLaTeX)
+	\end{itemize}
+
+ צורך ל-selection ישיר מה-pdf 
+\subsubsection*{חסרונות}
+\begin{itemize}
+	\item לא עובד עם BiDi אוטמוטית (יש צורך לסמן אנגלית וכו למעט מילה יחידה)
+	\item רשימות לא ממוספרות נראות מוזר (ניתן לראות כאן בדוגמא)
+	\item זמן קומפילציה קצת ארוך יותר מ--pdfTeX
+\end{itemize}
+\end{document}
+

@@ -1,0 +1,66 @@
+%!TEX program = lualatex
+\documentclass[a4paper]{article}
+
+% 1. Packages
+\usepackage{amsmath, amssymb} % Standard math
+\usepackage{lmodern} % better rendering
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage[protrusion=false]{microtype}
+\emergencystretch 3em
+
+% 2. Language Setup (Babel)
+\usepackage[bidi=basic, layout=tabular]{babel}
+\babelprovide[main, import=he, onchar=fonts ids]{hebrew}
+\babelprovide[import=en, onchar=fonts ids]{english} 
+\babeltags{english = english, hebrew = hebrew}
+
+% 3. Fonts
+% Hebrew Fonts (OpenType)
+\babelfont[hebrew]{rm}[Renderer=Harfbuzz]{David CLM}
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+
+
+% 4. Macros
+\newcommand{\LR}[1]{\textenglish{#1}}
+\newcommand{\RL}[1]{\texthebrew{#1}} 
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\newcommand{\LC}{\char"200E\ }
+\renewcommand{\labelitemi}{\LR{\textbullet}}
+
+
+\begin{document}
+	\title{מנוע Lua\LaTeX}
+	\author{}
+	\date{}
+	\maketitle
+\section*{מה זה LuaLaTeX?}
+בגדול, זה המנוע הכי ״חכם״ ו-״מתקדם״. הייתרון העיקרי שלו הוא שהוא יודע לעבוד עם עברית ואנגלית באופן אותומטי ע״י שימוש ב-\texttt{bidi=basic}, ומוריד את הצורך לסמן אופן מפורש כל חלק באנגלית שמופיע בתוך פסקה עברית. 
+\subsection*{יתרונות}
+\begin{itemize}
+	\item המנוע מפותח באופן פעיל, והוא המנוע המומלץ נכון לשנת 2026
+	\item ניתן להשתמש בכל גופן שנמצא במערכת ההפעלה (כאן שומש David CLM) שהוא ברירת המחדל
+	\item עבודה נוחה עם טבלאות ועמודות (ע״י \texttt{layout=tabular})
+	\item \textbf{היתרון הבולט:}  עיבוד BiDi אוטומטי עם \texttt{bidi=basic}
+\end{itemize}
+	\subsubsection*{דוגמא לעיבוד \emph{BiDi} אוטומטי (השוואה עם pdf\TeX):}
+
+	\textbf{עם  \texttt{bidi=basic}:}\\ \verb|כותבים עברית ואפשר to put English באמצע|
+	
+	\textbf{בלי \texttt{bidi=basic}:} \\ \texttt{בשביל לשים אנגלית בתוך עברית} \EN \verb|\LR{|\texttt{You must expliclty mark it}\verb|}| \HE \texttt{בצורה כזו}
+\subsection*{חסרונות}
+\begin{itemize}
+\item  זמן קומפילציה ארוך יותר
+\item בחירת טקסט מתוך ה-PDF לא עובדת כמו שצריך
+\item יש יותר Boiler--plate 
+\end{itemize}
+\section*{מתי להשתמש ב-LuaTeX?}
+\begin{itemize}
+	\item כשהמסמך כולל הרבה החלפות מעברית לאנגלית
+	\item כשהקומפילציה נעשית באופן מקומי (יכול להיות איטי בטירוף ב-OverLeaf)
+	\item כשאין צורך ל-selection ישיר מה-pdf 
+\end{itemize}
+\end{document}
+

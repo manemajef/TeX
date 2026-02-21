@@ -1,0 +1,42 @@
+\documentclass[a4]{article}
+% Hebrew support with babel
+\usepackage[english,hebrew]{babel}
+
+\newcommand{\LR}[1]{\L{#1}}
+\newcommand{\RL}[1]{\R{#1}}
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+% = make tables work
+\usepackage{array}
+\newcolumntype{H}{>{\R\bgroup}r<{\egroup}} 
+
+\title{מנוע ברירת המחדל \LR{Pdf\LaTeX}}
+\author{}
+\date{}
+
+\begin{document}
+	\maketitle
+	\section*{מה זה מנוע ברירת המחדל?}
+	
+	זה המנוע שאלא אם כן מציינים אחרת, תוכנות \LR{\TeX} ועורכי קוד (כגון \LR{OverLeaf}) וכו משתמשים בו. הוא מנוע ישן שלא כלכך בנוי לעברית, אבל ניתן להשתמש בו עם עברית דיי בקלות ע"י שימוש ב--
+	\LR{babel}. \textbf{דוגמא:}
+\EN \verb|\usepackage[english,hebrew]{babel}|
+
+\HE 
+\subsection*{יתרונות}
+\begin{itemize}
+	\item עובד כמעט ללא \LR{Boiler-plate}
+	\item זמן קופמפילציה מהיר במיוחד
+	\item אין צורך במנוע מיוחד, אפשר להריץ ישר
+\end{itemize}
+
+\subsection*{חסרונות}
+\begin{itemize}
+	\item עבודה עם טבלאות לא פשוטה
+	\item יש צורך לסמן כל טיפה של אנגלית בתוך עברית, גם אם זו מילה בודדת
+	\item אין גמישות לגופנים, קשה לעשות \LR{Costimization}
+\end{itemize}
+
+	
+	
+\end{document}

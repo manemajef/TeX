@@ -6,4 +6,7 @@ lab
 out/
 *.aux 
 *.log
+articles
+tikz
+
 
