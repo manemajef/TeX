@@ -1,1 +1,1 @@
-='out'
+$out_dir='out'

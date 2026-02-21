@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=latex 2026.2.2)  16 FEB 2026 02:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.2)  21 FEB 2026 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,23 +22,15 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
 eX and XeLaTeX
 \babel@savecnt=\count270
 \U@D=\dimen142
 \l@unhyphenated=\language90
-
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count271
-
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
@@ -47,23 +39,19 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 108.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/rlbabel.def
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/rlbabel.def
 File: rlbabel.def 2023/08/22 v2.4a Right-to-Left support from the babel system 
 Hebrew language support from the babel system
-\heb@n@everypar=\toks19
+\heb@n@everypar=\toks17
 LaTeX Info: Redefining \underline on input line 624.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/hebrew.ldf
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-hebrew/hebrew.ldf
 File: hebrew.ldf 2023/08/22 v2.4a Hebrew language definition from the babel sys
 tem Hebrew language support from the babel system
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hebrew-fonts/nhe8enc.def
 File: nhe8enc.def 2023/08/21 v1.3 8-bit Hebrew font encoding (test version: sti
 ll liable to change)
 Now handling font encoding NHE8 ...
 ... processing UTF-8 mapping file for font encoding NHE8
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/hebrew-fonts/nhe8enc.dfu
 File: nhe8enc.dfu 2023/08/21 v1.3 Hebrew input encoding file
    defining Unicode char U+20AA (decimal 8362)
@@ -129,14 +117,10 @@ Package babel Info: Importing font and identification data for hebrew
 ex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2024-05-08 L3 backend support: dvips
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box52
-\l__pdf_backend_content_box=\box53
-\l__pdf_backend_model_box=\box54
-\g__pdf_backend_annotation_int=\count272
-\g__pdf_backend_link_int=\count273
-\g__pdf_backend_link_sf_int=\count274
 )
 
 LaTeX Warning: Unused global option(s):
@@ -145,55 +129,70 @@ LaTeX Warning: Unused global option(s):
 (.aux/main.aux
 LaTeX Font Info:    Trying to load font information for NHE8+cmr on input line 
 4.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/culmus/nhe8cmr.fd
+(/usr/local/texlive/2025/texmf-dist/tex/latex/culmus/nhe8cmr.fd
 File: nhe8cmr.fd 2023/08/17 v1 Hebrew roman font (test version: still liable to
  change)
 ))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for NHE8/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for NHE8/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 19.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(Font)              <7> on input line 22.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 23.
+(Font)              <5> on input line 22.
 
 
 [1
 
-] (.aux/main.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/culmus/nhe8.enc}] (.aux/main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1994 strings out of 473191
- 34821 string characters out of 5715827
- 440979 words of memory out of 5000000
- 25276 multiletter control sequences out of 15000+600000
- 564719 words of font info for 52 fonts, out of 8000000 for 9000
+ 1967 strings out of 473190
+ 33968 string characters out of 5715801
+ 437892 words of memory out of 5000000
+ 25247 multiletter control sequences out of 15000+600000
+ 566322 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  47i,6n,54p,912b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/culmus/DavidCLM-Bold.p
+fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/culmus/DavidCLM-Mediu
+m.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
+.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on .aux/main.pdf (1 page, 102663 bytes).
+PDF statistics:
+ 54 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on .aux/main.dvi (1 page, 2928 bytes).

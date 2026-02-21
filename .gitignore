@@ -1,7 +1,9 @@
 .DS_Store
-archive
+archive/
 lab
-.aux
+.aux/
 *.synctex.gz
-*.pdf
+out/
+*.aux 
+*.log
 

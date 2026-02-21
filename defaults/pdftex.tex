@@ -1,15 +1,14 @@
 \documentclass[a4]{article}
-
 % Hebrew support with babel
-\usepackage[utf8]{inputenc}
 \usepackage[english,hebrew]{babel}
 
 \newcommand{\LR}[1]{\L{#1}}
 \newcommand{\RL}[1]{\R{#1}}
 \newcommand{\EN}{\selectlanguage{english}}
 \newcommand{\HE}{\selectlanguage{hebrew}}
-\newcommand{\en}[1]{\L{#1}}
-
+% = make tables work
+\usepackage{array}
+\newcolumntype{H}{>{\R\bgroup}r<{\egroup}} 
 
 \title{כותרת \LR{Title}}
 \author{}

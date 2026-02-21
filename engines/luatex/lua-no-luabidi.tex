@@ -1,0 +1,73 @@
+
+%!TEX program = lualatex
+
+\documentclass[12pt, a4paper]{article}
+
+% 1. Packages
+% REMOVED: \usepackage{luabidi}  <-- this was the culprit, conflicts with babel bidi=basic
+\usepackage{amsmath, amssymb}
+\usepackage{lmodern}
+\usepackage[a4paper, includeheadfoot]{geometry}
+\usepackage[protrusion=false]{microtype}
+\emergencystretch 3em
+
+% 2. Language Setup (Babel)
+% bidi=basic uses LuaTeX native direction primitives → correct ToUnicode in PDF → selectable text
+\usepackage[bidi=basic, layout=tabular]{babel}
+\babelprovide[main, import=he, onchar=fonts ids]{hebrew}
+\babelprovide[import=en, onchar=fonts ids]{english}
+\babeltags{english = english, hebrew = hebrew}
+% after babel setup:
+\usepackage[unicode, pdfencoding=auto, hidelinks]{hyperref}
+
+% 3. Fonts
+\babelfont[hebrew]{rm}{David CLM}
+\babelfont[hebrew]{tt}{Miriam Mono CLM}
+\babelfont[hebrew]{sf}{DejaVu Sans}
+
+% 4. Macros
+% \setRTLmain / \setRTL / \setLTR were luabidi commands — replaced with babel equivalents
+\newcommand{\RL}[1]{\texthebrew{#1}}
+\newcommand{\LR}[1]{\textenglish{#1}}
+
+\newcommand{\EN}{\selectlanguage{english}}
+\newcommand{\HE}{\selectlanguage{hebrew}}
+\newcommand{\LC}{\char"200E\ }
+\renewcommand{\labelitemi}{\babelsublr{\textbullet}}
+
+\begin{document}
+	
+	% With babel bidi=basic, direction follows the active language automatically.
+	% \setRTLmain is gone; hebrew is already declared as main so RTL is the default.
+	
+	\title{תבנית עברית ל-\LaTeX}
+	\author{Rotem Semah}
+	\date{}
+	\maketitle
+	
+	\section{שלום}
+	שלום כלבה. מה הולך? Bitch.
+	(שלום). מה?! מה--קורה מה-קורה מה---קורה? זה קורה כ־23 פעמים. באופן כללי, אין סיבה להשתמש במנוע הזה (pdfTex) מאחר וזה עושה Shit.
+	נשים לב שמספרים (1,2,3,4) וכן גם סימנים: \% וכו, עובדים כצפוי. מה קורה למשל עם \$ ? ומה קורה עם ₪ ? ואיך עושים \verb|טקסט בעברית| או למשל \sffamily טקסט לא Serif?
+	
+	\subsection{טבלאות, עמודות, וכל מה שבינהם}
+	\rmfamily
+	
+	% LTR table — wrap in \babelsublr{} or use \begin{english}
+		\begin{english}
+			\begin{tabular}{|l|l|l|}
+				One & Two & three \\
+				\hline
+				Bitch & Nigga & Cunt
+			\end{tabular}
+		\end{english}
+		
+		\HE
+		\begin{tabular}{|r|r|r|}
+			אחת & שתיים & שלוש \\
+			\hline
+			כלבה & ניגה & קאנט. \\
+			$\cos$ & $\ln$ & $\lim$
+		\end{tabular}
+		
+	\end{document}

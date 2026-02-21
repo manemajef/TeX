@@ -1,11 +1,11 @@
 %!TEX program = xelatex
 
-\documentclass[12pt, a4paper]{article}
+\documentclass{article}
 
 % 1. Packages
 \usepackage{amsmath, amssymb} % Standard math
 \usepackage{lmodern}
-\usepackage[a4paper, includeheadfoot]{geometry}
+%\usepackage[a4paper, includeheadfoot]{geometry}
 \usepackage[protrusion=false]{microtype}
 \emergencystretch 3em
 
@@ -15,7 +15,7 @@
 \babeltags{english = english, hebrew = hebrew} 
 
 % 3. Fonts
-\babelfont[hebrew]{rm}{David CLM}
+\babelfont[hebrew]{rm}{Times New Roman}
 \babelfont[hebrew]{tt}{Miriam Mono CLM}
 \babelfont[hebrew]{sf}{DejaVu Sans}
 
@@ -30,7 +30,7 @@
 
 \begin{document}
 	\title{תבנית עברית ל- \LR{\LaTeX}}
-	\author{Rotem Semah}
+	\author{\LR{Rotem Semah}}
 	\date{}
 	\maketitle
 	\section{שלום}
@@ -58,7 +58,24 @@
 \end{tabular}
 	עכשיו, השאלה היא האם Writing Multiple words works?
 
-\LR{Times}
 
+עכשיו אם אני כותב בעברית ואז מוסיף \LR{Times} ככה באנגלית. האם זה עובד?
+\section{אכילת תחת \LR{(Ass Eating)}}
+את אכילת הישבן, נהוג לסמן ע״י המשוואה הבאה:
+\[
+	\sum_{i=1}^{n}ass_i = Ass \; eaten. \implies fatAss. f(x)= fatAss
+\]
+יש מקראים שבהם מעבר קל ל-\LR{Neo-Ass--eating--Theory} אבל במסגרת הקורס שלנו, אנחנו נתעסק בעיקר ב---\LR{Classical}. 
+\LR{(Stars and Bars)} זה כל מה שצריך. בשביל האדם הפשוט, זה די והותר.
+
+\begin{itemize}
+	\item מקרה ראשון: 
+	\item מקרה שני
+	\item וכן
+	\item הלאה 
+	\item \begin{itemize}
+		\item some
+	\end{itemize}
+\end{itemize}
 \end{document}
 

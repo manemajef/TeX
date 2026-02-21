@@ -64,6 +64,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
+INPUT /usr/local/texlive/2025/texmf-dist/tex/lualatex/luabidi/luabidi.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/lualatex/luabidi/luabidi-footnotes.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
@@ -77,7 +80,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype-luatex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.lua
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -106,10 +108,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc
-INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/a1c0f6c327ae08cbd2005c8f00162cf48f59ba54ddb50112a7cb41dcdc54bcfb.luc
-INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/ceb4ec5bd6f45da4ef3e97c95a6fd42a39416fb3f74e6538c44e398b73d0c0c3.luc
-INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/22902bae1a0b268225979f691b39cebe0dbd32078cb13944b50857b5eb683c6a.luc
-INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/a2d779cf96a318fe51a44c8a8507a7ad8a569bc17339fa184522da7399c2427c.luc
+INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/46b7843896a6e6254a26bff665c1459df7d05552e13bc781f5fb411bbd36c0a2.luc
+INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/c817ee9f36b04ef76af5c5f45a71ae07b554a5a682a70c0dfc7f256d2cb68590.luc
+INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/f0967475e3de41508e64f58e267bd5ebeb1eefb7548b20d32c895648b8454b7f.luc
+INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/6eebcefcf17fdbfc9bd26192d9aa01405848a638defc6340184fe4f6b4f68030.luc
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/7a0e8a33bfcf5a73d8cbf14bd67cfd8b7e6a57b4c359ce79679461cd383508b6.luc
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/da867f3bdd20aa7a414290745c46b27e4d26d42592b20db1e7447ba8296631d1.luc
 INPUT /Users/rotemsemah/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/hb/d2702a08cc75688f8c998da49ffcc31b67fa43e5fc16bed1e40ce765f0228d00.luc

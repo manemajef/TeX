@@ -1,6 +1,6 @@
 %!TEX program = xelatex
 
-\documentclass[12pt, a4paper]{article}
+\documentclass[11pt, a4paper]{article}
 
 % 1. Packages
 \usepackage{amsmath, amssymb} % Standard math
@@ -26,11 +26,14 @@
 \newcommand{\EN}{\selectlanguage{english}}
 \newcommand{\HE}{\selectlanguage{hebrew}}
 \renewcommand{\labelitemi}{\LR{\textbullet}}
+\usepackage{array}
+\newcolumntype{H}{>{\RL\bgroup}r<{\egroup}}
 
 \begin{document}
-\title{תבנית עברית ל--\LR{\LaTeX} עם מנוע \LR{XeLatex}}
+\title{תבנית עברית ל--\LR{\LaTeX} עם מנוע \LR{Xe\TeX}}
 \author{\LR{Rotem Semah}}
 \date{}
 \maketitle
+שלום \LR{Shalom Bitch}
 
 \end{document}
