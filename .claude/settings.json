@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pdffonts:*)",
+      "Bash(cmp:*)",
+      "WebFetch(domain:bugs.ghostscript.com)",
+      "WebFetch(domain:latex3.github.io)",
+      "WebFetch(domain:tug.org)"
+    ]
+  }
+}
